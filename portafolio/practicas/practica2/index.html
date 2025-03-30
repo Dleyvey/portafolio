@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corridos Tumbados</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Portafolio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="practicas/practica2">Práctica 2</a></li>
+                <li><a href="/practicas/practica3/index.html">Práctica 3</a></li>
+                <li><a href="/practicas/practica4/index.html">Práctica 4</a></li>
+                <li><a href="/practicas/practica5/index.html">Práctica 5</a></li>
+                <li><a href="/practicas/practica6/index.html">Practica 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="top-bar">
+        <a href="#formulario">Formulario</a>
+        <a href="#listas">Listas</a>
+        <a href="#tips">Tips</a>
+    </div>
+    
+    <div class="container">
+        <h1>Explorando los Corridos Tumbados</h1>
+        <h2>El género que está revolucionando la música</h2>
+        
+        <h3>Historia</h3>
+        <p>Los corridos tumbados mezclan el regional mexicano con influencias del trap y hip-hop, dando lugar a un estilo fresco y único.</p>
+        <div class="listas-container">
+            <div>
+                <h4>Principales exponentes</h4>
+                <ul>
+                    <li>Natael Cano</li>
+                    <li>Ovi</li>
+                    <li>Junior H</li>
+                    <li>Fuerza Regida</li>
+                    <li>Alemán</li>
+                    <li>Rancho Humilde</li>
+                    <li>Dan Sánchez</li>
+                    <li>Gabito Ballesteros</li>
+                    <li>Herencia de Patrones</li>
+                    <li>Tony Loya</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Tipos de Corridos Tumbados</h5>
+                <ol>
+                    <li>Bélicos</li>
+                    <li>Románticos</li>
+                    <li>Inspiracionales</li>
+                    <li>De fiesta</li>
+                    <li>De desamor</li>
+                    <li>Estilo trap</li>
+                    <li>Estilo clásico</li>
+                    <li>Con banda</li>
+                    <li>Norteño</li>
+                    <li>Sierreño</li>
+                </ol>
+            </div>
+        </div>
+        
+        <h6>Elementos clave en los corridos tumbados</h6>
+        <dl>
+            <dt>Letra:</dt>
+            <dd>Generalmente inspirada en experiencias de vida, lujos y éxitos.</dd>
+            <dt>Instrumentación:</dt>
+            <dd>Fusión de guitarras, bajos y beats modernos.</dd>
+            <dt>Estilo vocal:</dt>
+            <dd>Voces con un toque relajado y a veces melancólico.</dd>
+            <dt>Producción:</dt>
+            <dd>Uso de autotune y mezcla con sonidos urbanos.</dd>
+            <dt>Impacto:</dt>
+            <dd>Se ha convertido en un fenómeno global entre jóvenes.</dd>
+        </dl>
+        
+        <h2 id="formulario">Formulario de Preferencias Musicales</h2>
+        <form>
+            <label>Nombre: <input type="text" name="nombre"></label><br>
+            <label>Apellido: <input type="text" name="apellido"></label><br>
+            <label>Artista favorito: <input type="text" name="artista"></label><br>
+            <label>Contraseña: <input type="password" name="password"></label><br>
+            <label>Edad: <input type="number" name="edad"></label><br>
+            <label>Fecha de nacimiento: <input type="date" name="fecha_nacimiento"></label><br>
+            
+            <p>¿Qué estilo de corrido tumbado prefieres?</p>
+            <label><input type="checkbox" name="estilo" value="belico"> Bélico</label>
+            <label><input type="checkbox" name="estilo" value="romantico"> Romántico</label>
+            <label><input type="checkbox" name="estilo" value="inspiracional"> Inspiracional</label>
+            <label><input type="checkbox" name="estilo" value="fiesta"> Fiesta</label><br>
+            
+            <p>¿Quién es tu artista favorito?</p>
+            <label><input type="radio" name="artista_fav" value="natanael"> Natanael Cano</label>
+            <label><input type="radio" name="artista_fav" value="juniorh"> Junior H</label>
+            <label><input type="radio" name="artista_fav" value="fuerza"> Fuerza Regida</label>
+            <label><input type="radio" name="artista_fav" value="gabito"> Gabito Ballesteros</label><br>
+            
+            <label>Correo electrónico: <input type="email" name="email"></label><br>
+            <label>Sube tu playlist favorita: <input type="file" name="playlist"></label><br>
+            <label>Elige un color que represente tu estilo: <input type="color" name="color"></label><br>
+            <label>Ajusta el volumen de tu música: <input type="range" name="volumen" min="0" max="100"></label><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

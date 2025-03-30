@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Tabla</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="practicas/practica2">Práctica 2</a></li>
+                <li><a href="/practicas/practica3/index.html">Práctica 3</a></li>
+                <li><a href="/practicas/practica4/index.html">Práctica 4</a></li>
+                <li><a href="/practicas/practica5/index.html">Práctica 5</a></li>
+                <li><a href="/practicas/practica6/index.html">Practica 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <h1>Formulario de Registro</h1>
+
+    <form id="formulario">
+        <label>Nombre:</label>
+        <input type="text" id="nombre"><br><br>
+
+        <label>Correo:</label>
+        <input type="email" id="correo"><br><br>
+
+        <p>Intereses:</p>
+        <input type="checkbox" name="intereses" value="Deportes"> Deportes
+        <input type="checkbox" name="intereses" value="Música"> Música
+        <input type="checkbox" name="intereses" value="Lectura"> Lectura<br><br>
+
+        <p>Género:</p>
+        <input type="radio" name="genero" value="Masculino"> Masculino
+        <input type="radio" name="genero" value="Femenino"> Femenino
+        <input type="radio" name="genero" value="Otro"> Otro<br><br>
+
+        <label>Fecha y hora:</label>
+        <input type="datetime-local" id="fecha"><br><br>
+
+        <label>Color favorito:</label>
+        <input type="color" id="color"><br><br>
+
+        <label>Nivel (0-10):</label>
+        <input type="range" id="rango" min="0" max="10" value="5"><br><br>
+
+        <button type="button" onclick="agregarFila()">Agregar</button>
+    </form>
+
+    <p id="mensajeError"></p>
+
+    <h2>Registros</h2>
+    <table id="tablaRegistros">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Intereses</th>
+                <th>Género</th>
+                <th>Fecha y Hora</th>
+                <th>Color</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+    <div class="volver">
+        <a href="../../index.html">← Volver al Portafolio</a>
+    </div>
+</body>
+</html>

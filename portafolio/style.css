@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    color: #ff4c4c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff4c4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9999;
+}
+
+.contenido {
+    margin: 40px auto;
+    width: 70%;
+    background: #333;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 76, 76, 0.5);
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Estilos para los enlaces de contacto */
+.contenido a {
+    color: #ff4c4c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contenido a:hover {
+    color: #ff9999;
+    text-decoration: underline;
+}

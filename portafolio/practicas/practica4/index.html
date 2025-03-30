@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Practica4</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="practicas/practica2">Práctica 2</a></li>
+                <li><a href="/practicas/practica3/index.html">Práctica 3</a></li>
+                <li><a href="/practicas/practica4/index.html">Práctica 4</a></li>
+                <li><a href="/practicas/practica5/index.html">Práctica 5</a></li>
+                <li><a href="/practicas/practica6/index.html">Practica 6</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <!-- Conversor-->
+    <h2>Conversión de Calificaciones</h2>
+    <label for="calificacion">Ingrese la calificación:</label>
+    <input type="number" id="calificacion" min="0" max="10">
+    <button onclick="convertirCalificacion()">Convertir</button>
+    <p id="resultadoCalificacion"></p>
+
+    <hr>
+
+    <!-- Factorial -->
+    <h2>Cálculo del Factorial</h2>
+    <label for="numeroFactorial">Ingrese un número:</label>
+    <input type="number" id="numeroFactorial" min="0">
+    <button onclick="calcularFactorial()">Calcular Factorial</button>
+    <p id="resultadoFactorial"></p>
+
+    <hr>
+
+    <!--Información -->
+    <h2>Formulario de Información</h2>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="0" required><br><br>
+
+        <label>Género:</label>
+        <input type="radio" name="genero" value="Masculino"> Masculino
+        <input type="radio" name="genero" value="Femenino"> Femenino
+        <input type="radio" name="genero" value="Otro"> Otro<br><br>
+
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required><br><br>
+
+        <label for="colorFavorito">Color favorito:</label>
+        <input type="color" id="colorFavorito"><br><br>
+
+        <button type="button" onclick="mostrarInformacion()">Enviar</button>
+    </form>
+
+    <p id="resultadoFormulario"></p>
+    <div class="volver">
+        <a href="../../index.html">← Volver al Portafolio</a>
+    </div>
+
+</body>
+</html>

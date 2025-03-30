@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.contenedor {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+audio, video, iframe {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+
+.twitter-timeline,
+.fb-page {
+    margin: 10px auto;
+}

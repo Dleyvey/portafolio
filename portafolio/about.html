@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(255, 76, 76, 0.5);
+            max-width: 80%;
+            margin: auto;
+        }
+        .texto {
+            width: 70%;
+            text-align: left;
+            color: #fff;
+            font-size: 18px;
+        }
+        .texto h2 {
+            color: #ff4c4c;
+        }
+        .imagen {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 3px solid #ff4c4c;
+        }
+        .imagen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .redes-sociales {
+            margin-top: 20px;
+        }
+        .redes-sociales a {
+            color: #ff4c4c;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .redes-sociales a:hover {
+            color: #ff9999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Un poco sobre  Mí</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="practicas/practica2">Práctica 2</a></li>
+                <li><a href="practicas/practica3/index.html">Práctica 3</a></li>
+                <li><a href="practicas/practica4/index.html">Práctica 4</a></li>
+                <li><a href="practicas/practica5/index.html">Práctica 5</a></li>
+                <li><a href="practicas/practica6/index.html">Práctica 6</a></li>
+                <li><a href="conversor/conversor.html">Conversor</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contenido">
+        <div class="info-container">
+            <div class="texto">
+                <h2>Hola, soy Diego Leyvas</h2>
+                <p>Me encanta el deporte, el fútbol americano, los videojuegos, el anime y los corridos tumbados. Siempre estoy buscando aprender más y mejorar mis habilidades en el desarrollo web.</p>
+                <div class="redes-sociales">
+                    <h3>Sígueme en redes sociales:</h3>
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="images/perfil.jpg" alt="Foto de Diego Leyvas">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Portafolio Web | Desarrollado por Diego Leyvas</p>
+    </footer>
+</body>
+</html>

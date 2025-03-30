@@ -1,0 +1,42 @@
+
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 76, 76, 0.5);
+}
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+select, input {
+    background: #333;
+    color: white;
+}
+
+button {
+    background: #ff4c4c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff9999;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff4c4c;
+    font-weight: bold;
+    text-align: center;
+}
